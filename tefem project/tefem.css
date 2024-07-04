@@ -1,0 +1,31 @@
+.pricediv{display: flex}
+
+h3{ background-color: rgb(20, 56, 56); border-radius: 20px; width: 200px; height: 40px; color: blanchedalmond; padding-left: 100px; padding-top: 15px}
+
+.bigdiv{border: 10px solid rgb(255, 176, 176);}
+
+@media only screen and (min-width: 1024px)  {
+    body{.bigdiv{display: flex}}
+
+}
+
+@media only screen and (min-width: 1024px)  {
+    body{.bigdiv{border: 70px solid rgb(255, 176, 176)}}
+
+}
+
+
+@media only screen and (min-width: 1024px)  {
+    body{.bigdiv2{margin: 25px;}}
+
+}
+
+@media only screen and (max-width: 500px)  {
+    body{img{width: 400px;}}
+
+}
+
+@media only screen and (min-width: 1024px)  {
+    body{.bigdiv{align-self: center; justify-content: center}}
+
+}
